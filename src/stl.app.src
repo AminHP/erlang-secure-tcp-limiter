@@ -1,0 +1,14 @@
+{application, stl, [
+	{description, "Limiting for secure TCP protocols."},
+	{vsn, "1.0.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		ssl
+	]},
+	{mod, {stl, []}},
+	{env, []}
+]}.
